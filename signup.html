@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up</title>
+        <!-- WEB ICON -->
+        <link rel="shortcut icon" href="essets/photos/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="essets/css/style-signup.css">
+    <link rel="stylesheet" href="essets/css/all.min.css">
+</head>
+<body>
+    <div class="title-login">
+        <h1>
+            sign <span>up</span> 
+        </h1>
+    </div>
+    <div class="container">
+        <div class="form" id="form">
+            <div class="username">
+                <input type="text" name="" id="username" required >
+                <p id="usermass">pleas enter your user name</p>
+                <label for="username">user name</label>
+            </div>
+            <div class="email">
+                <input type="text" name="" id="email" required >
+                <p>pleas enter your email</p>
+                <label for="email">email</label>                
+            </div>
+            <div class="pass">
+                
+                <input type="password" name="" id="pass" required >
+                <p>pleas enter your password</p>
+                <div id="regular">
+                    <span style="color: rgb(220, 114, 38);">at least one</span>
+                    <span id="lowercase">lowercase,</span>
+                    <span id="uppercase">uppercase,</span>
+                    <span id="number">number,</span>
+                    <span id="charactar">8 charactar</span>
+                </div>
+                <label for="pass">password</label>
+                <i class="fa-solid fa-eye" id="eye"></i>
+                <i class="fa-regular fa-eye-slash" id="eyeHidden"></i>
+            </div>
+            <div class="conf-pass">
+                <input type="password" name="" id="confpass" required >
+                <p>pleas enter your conferm password</p>
+                <label for="confpass">conferm password</label>
+                
+            </div>
+            <div class="submit">
+                <input id="submit" type="submit" value="submit" onclick="cheack()">
+            </div>
+            <p>
+                <a href="index.html">I already have an acount</a>
+            </p>
+
+        </div>
+
+    </div>
+    <script src="essets/js/signup.js"></script>
+</body>
+</html>
